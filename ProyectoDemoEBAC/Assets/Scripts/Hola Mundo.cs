@@ -20,11 +20,11 @@ public class HolaMundo : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Debug.LogWarning("Hola desde fixed Update Cada 50 Frames");
+        Debug.LogError("Hola desde fixed Update Cada 50 Frames");
     }
     private void LateUpdate()
     {
-        Debug.Log("Hola desde Late Update");
+        Debug.LogError("Hola desde Late Update");
     }
     private void OnEnable()
     {
