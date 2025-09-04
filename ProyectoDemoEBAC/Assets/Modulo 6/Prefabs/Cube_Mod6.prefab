@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7118059191838617062}
   - component: {fileID: 1763837377205753217}
   - component: {fileID: 8423695819931236432}
-  - component: {fileID: 1104134880747354573}
+  - component: {fileID: -3120900049470671902}
   m_Layer: 0
   m_Name: Cube_Mod6
   m_TagString: Untagged
@@ -104,10 +104,10 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1104134880747354573
+--- !u!114 &-3120900049470671902
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,6 +116,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6232204637416039387}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a63d68aa8b7fabf4d9886cf57e63fb6e, type: 3}
+  m_Script: {fileID: 11500000, guid: 04f6bd17e1e0a5e42ae20c4188875ade, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

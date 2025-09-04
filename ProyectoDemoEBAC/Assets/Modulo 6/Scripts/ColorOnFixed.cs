@@ -7,7 +7,7 @@ public class ColorOnFixed : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.LogError("Cambiando el color desde FixedUpdate en este objeto: " + gameObject.name);
+        Debug.Log("Cambiando el color desde FixedUpdate en este objeto: " + gameObject.name);
     }
 
     //Fixed Update cada 50 frames
