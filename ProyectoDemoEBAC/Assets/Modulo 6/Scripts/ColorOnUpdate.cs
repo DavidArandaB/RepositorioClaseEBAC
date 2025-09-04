@@ -7,7 +7,7 @@ public class ColorOn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.LogError("Cambiando el color desde Update en este objeto: " + gameObject.name);
+        Debug.Log("Cambiando el color desde Update en este objeto: " + gameObject.name);
     }
 
     // Update is called once per frame
