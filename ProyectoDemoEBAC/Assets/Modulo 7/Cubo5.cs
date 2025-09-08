@@ -19,7 +19,7 @@ public class Cubo5 : MonoBehaviour
     {
         //Realizo la un AND del cubo UNO y TRES , un AND del cubo DOS y CUATRO
         //A estos 2 resultados les hago un OR
-        varBooleana = ((CuboUno.varBooleana || CuboTres.varBooleana) && (CuboDos.varBooleana || CuboCuatro.varBooleana)) ? true : false;
+        varBooleana = ((CuboUno.varBooleana && CuboTres.varBooleana) || (CuboDos.varBooleana && CuboCuatro.varBooleana)) ? true : false;
         //Luego, hago el if con el resultado
         if (varBooleana)
         {
